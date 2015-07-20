@@ -6,4 +6,5 @@ zypper ar -f ftp://ftp.cn.debian.org/opensuse/update/13.2-non-oss/ debianupdateo
 zypper in -t pattern devel_basis devel_C_C++ devel_kernel
 zypper in libXpm-devel libjpeg8-devel giflib-devel libtiff-devel git
 
+ln -sf dotspacemacs ~/.spacemacs
 
