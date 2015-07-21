@@ -7,4 +7,6 @@ zypper in -t pattern devel_basis devel_C_C++ devel_kernel
 zypper in libXpm-devel libjpeg8-devel giflib-devel libtiff-devel git
 
 ln -sf dotspacemacs ~/.spacemacs
+mv ~/.bashrc ~/.bashrc.bak
+ln -sf dotbashrc ~/.bashrc
 

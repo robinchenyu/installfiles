@@ -1,0 +1,7 @@
+source /usr/bin/virtualenvwrapper.sh
+
+export GOROOT=$HOME/go
+export GOPATH=$HOME/goprojects
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+alias tmuxa="tmux attach-session"
