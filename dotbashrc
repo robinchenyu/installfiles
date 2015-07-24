@@ -5,3 +5,4 @@ export GOPATH=$HOME/goprojects
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 alias tmuxa="tmux attach-session"
+alias emacsa="export TERM=xterm-256color; emacs -nw"
