@@ -19,7 +19,14 @@
      ;; ----------------------------------------------------------------
      ;; auto-completion
      ;; better-defaults
-     complete-company
+     ;; complete-company
+     (auto-completion :variables
+                      auto-completion-enable-snippets-in-popup t
+                      auto-completion-enable-sort-by-usage t
+                      auto-completion-enable-help-tooltip t
+                      auto-completion-return-key-behavior 'complete
+                      auto-completion-tab-key-behavior 'cycle
+                      auto-completion-complete-with-key-sequence nil)
      emacs-lisp
      git
      markdown
@@ -27,20 +34,13 @@
      ruby
      (python :variables python-test-runner 'pytest)
      clojure
-     go
-     ;(auto-completion :variables
-     ;                 auto-completion-enable-snippets-in-popup t
-     ;                 auto-completion-enable-sort-by-usage t
-     ;                 auto-completion-enable-help-tooltip t
-     ;                 auto-completion-return-key-behavior 'complete
-     ;                 auto-completion-tab-key-behavior 'cycle
-     ;                 auto-completion-complete-with-key-sequence nil)
 
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
      ;; syntax-checking
      version-control
+     go
      html
      putty
      )
