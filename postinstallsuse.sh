@@ -10,3 +10,6 @@ ln -sf dotspacemacs ~/.spacemacs
 mv ~/.bashrc ~/.bashrc.bak
 ln -sf dotbashrc ~/.bashrc
 
+# for go install
+mkdir ~/go
+mkdir ~/goprojects

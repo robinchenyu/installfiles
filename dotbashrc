@@ -1,3 +1,4 @@
+test -s ~/.alias && . ~/.alias || true
 source /usr/bin/virtualenvwrapper.sh
 
 export GOROOT=$HOME/go
