@@ -181,6 +181,8 @@ layers configuration."
   (setq evil-esc-mode nil)
   (putty-fix-keys)
   (global-company-mode)
+  (require 'epa-file)
+  (epa-file-enable)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
