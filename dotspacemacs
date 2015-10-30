@@ -181,6 +181,7 @@ layers configuration."
   (setq evil-esc-mode nil)
   (putty-fix-keys)
   (global-company-mode)
+  ;; add easypg encrypt
   (require 'epa-file)
   (epa-file-enable)
   )
