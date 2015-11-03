@@ -6,13 +6,21 @@ zypper ar -f ftp://ftp.cn.debian.org/opensuse/update/13.2-non-oss/ debianupdateo
 zypper in -t pattern devel_basis devel_C_C++ devel_kernel
 zypper in libXpm-devel libjpeg8-devel giflib-devel libtiff-devel git
 
-ln -sf dotspacemacs ~/.spacemacs
+ln -sf $HOME/installfiles/dotspacemacs ~/.spacemacs
 mv ~/.bashrc ~/.bashrc.bak
-ln -sf dotbashrc ~/.bashrc
+ln -sf $HOME/installfiles/dotbashrc ~/.bashrc
 
 # for go install
 mkdir ~/go
 mkdir ~/goprojects
 
+<<<<<<< HEAD
 # sudo add-apt-repository ppa:ubuntu-elisp/ppa 
 # sudo apt-get  install emacs-snapshot-el emacs-snapshot-gtk emacs-snapshot
+=======
+
+# for clojure
+mkdir ~/.lein
+rm -rf ~/.lein/profiles.clj 
+ln -sf $HOME/installfiles/profiles.clj ~/.lein/profiles.clj
+>>>>>>> 7af19b5eb71fc5bd0be4bdcdc34886e60d6e8e2b
