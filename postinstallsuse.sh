@@ -14,13 +14,10 @@ ln -sf $HOME/installfiles/dotbashrc ~/.bashrc
 mkdir ~/go
 mkdir ~/goprojects
 
-<<<<<<< HEAD
-# sudo add-apt-repository ppa:ubuntu-elisp/ppa 
-# sudo apt-get  install emacs-snapshot-el emacs-snapshot-gtk emacs-snapshot
-=======
+sudo add-apt-repository ppa:ubuntu-elisp/ppa 
+sudo apt-get  install emacs-snapshot-el emacs-snapshot-gtk emacs-snapshot
 
 # for clojure
 mkdir ~/.lein
 rm -rf ~/.lein/profiles.clj 
 ln -sf $HOME/installfiles/profiles.clj ~/.lein/profiles.clj
->>>>>>> 7af19b5eb71fc5bd0be4bdcdc34886e60d6e8e2b
