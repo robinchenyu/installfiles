@@ -189,14 +189,17 @@ layers configuration."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ahs-case-fold-search nil)
- '(ahs-default-range (quote ahs-range-whole-buffer))
- '(ahs-idle-interval 0.25)
+ '(ahs-case-fold-search nil t)
+ '(ahs-default-range (quote ahs-range-whole-buffer) t)
+ '(ahs-idle-interval 0.25 t)
  '(ahs-idle-timer 0 t)
- '(ahs-inhibit-face-list nil)
+ '(ahs-inhibit-face-list nil t)
  '(evil-esc-delay 0.0)
  '(org-agenda-files (quote ("~/blogs/diary.org" "~/blogs/oa2_plan.org")))
- '(ring-bell-function (quote ignore) t))
+ '(package-selected-packages
+   (quote
+    (paradox company-quickhelp window-numbering which-key web-mode volatile-highlights vi-tilde-fringe use-package toc-org tagedit spray spacemacs-theme smooth-scrolling smeargle slim-mode scss-mode sass-mode ruby-tools ruby-test-mode robe rbenv rainbow-delimiters quelpa pyvenv python pytest pyenv-mode powerline popwin pip-requirements pcre2el page-break-lines org-repo-todo org-present org-pomodoro org-plus-contrib org-bullets open-junk-file neotree move-text monokai-theme mmm-mode markdown-toc magit-gitflow macrostep linum-relative leuven-theme less-css-mode jade-mode info+ indent-guide ido-vertical-mode hy-mode hungry-delete htmlize highlight-parentheses highlight-numbers highlight-indentation helm-themes helm-swoop helm-pydoc helm-projectile helm-mode-manager helm-make helm-gitignore helm-descbinds helm-css-scss helm-c-yasnippet helm-ag google-translate golden-ratio go-eldoc gnuplot gitconfig-mode gitattributes-mode git-timemachine git-messenger gh-md flx-ido fill-column-indicator fancy-battery expand-region exec-path-from-shell evil-visualstar evil-tutor evil-surround evil-search-highlight-persist evil-org evil-numbers evil-nerd-commenter evil-matchit evil-lisp-state evil-jumper evil-indent-textobject evil-iedit-state evil-exchange evil-escape evil-args evil-anzu enh-ruby-mode emmet-mode elisp-slime-nav diff-hl define-word cython-mode company-web company-statistics company-go company-anaconda clj-refactor clean-aindent-mode cider-eval-sexp-fu bundler buffer-move auto-yasnippet auto-highlight-symbol auto-dictionary align-cljlet aggressive-indent adaptive-wrap ace-window ace-link ac-ispell)))
+ '(ring-bell-function (quote ignore)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -13,3 +13,6 @@ ln -sf dotbashrc ~/.bashrc
 # for go install
 mkdir ~/go
 mkdir ~/goprojects
+
+# sudo add-apt-repository ppa:ubuntu-elisp/ppa 
+# sudo apt-get  install emacs-snapshot-el emacs-snapshot-gtk emacs-snapshot
